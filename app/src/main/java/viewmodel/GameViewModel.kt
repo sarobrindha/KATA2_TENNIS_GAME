@@ -6,8 +6,8 @@ import androidx.navigation.NavController
 
 class GameViewModel : ViewModel() {
 
-    fun navigateToPlayerInfoFragment(navController:NavController, actionId:Int){
-        //Todo : Should navigate to player info
+    fun navigateToPlayerInfoFragment(navController: NavController, actionId: Int) {
+        navController.navigate(actionId)
     }
 
     override fun onCleared() {
