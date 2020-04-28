@@ -6,6 +6,7 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.ViewModelProvider
+import androidx.navigation.findNavController
 import com.example.myapplication.R
 import kotlinx.android.synthetic.main.fragment_start_game.*
 import viewmodel.GameViewModel
@@ -28,7 +29,7 @@ class StartFragment : Fragment(){
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
         start_game_button.setOnClickListener {
-            //Todo : navigation goes here
+            viewModel.navigateToPlayerInfoFragment(it.findNavController(),R.id.action_startFragment_to_playerInfoFragment)
         }
     }
 }

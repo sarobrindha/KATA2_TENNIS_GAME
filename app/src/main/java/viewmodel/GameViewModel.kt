@@ -2,8 +2,13 @@ package viewmodel
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
+import androidx.navigation.NavController
 
 class GameViewModel : ViewModel() {
+
+    fun navigateToPlayerInfoFragment(navController:NavController, actionId:Int){
+        //Todo : Should navigate to player info
+    }
 
     override fun onCleared() {
         super.onCleared()
