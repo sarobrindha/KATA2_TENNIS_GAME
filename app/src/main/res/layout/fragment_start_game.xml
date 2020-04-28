@@ -11,7 +11,7 @@
         android:layout_height="60dp"
         android:layout_marginStart="30dp"
         android:layout_marginEnd="30dp"
-        android:background="@color/colorPrimary"
+        android:background="@color/button_color"
         android:text="@string/start_game"
         android:textAllCaps="false"
         android:textColor="@color/white"

@@ -1,4 +1,7 @@
 <resources>
     <string name="app_name">My Application</string>
     <string name="start_game">Start Game</string>
+    <string name="enter_player_name_hint">Enter player name</string>
+    <string name="play_button_text">Lets Play</string>
+    <string name="player_info">Player Information</string>
 </resources>
